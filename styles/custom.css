@@ -118,7 +118,7 @@
   .mpld3-xaxis line, .mpld3-yaxis line {
     stroke: #d0d0d0 !important;
   }
-  .mpld3-xaxis text, .mpld3-yaxis text {
+  .mpld3-xaxis text, .mpld3-yaxis text, .mpld3-text {
     fill: #d0d0d0 !important;
   }
 
