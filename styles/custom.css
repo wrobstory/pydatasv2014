@@ -122,4 +122,13 @@
     fill: #d0d0d0 !important;
   }
 
+  .rickshaw_graph .y_ticks text {
+    fill: #d0d0d0 !important;
+    opacity: 1.0;
+  }
+
+  .rickshaw_graph .detail .x_label {
+    color: black;
+  }
+
 </style>
