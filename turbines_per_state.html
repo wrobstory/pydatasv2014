@@ -57,7 +57,7 @@
 
           
           var color = d3.scale.threshold()
-              .domain([1.0, 2.0, 2.0, 3.0, 3.0])
+              .domain([1.0, 500.0, 1000.0, 2000.0, 2000.0])
               .range(['#EDF8FB', '#BFD3E6', '#9EBCDA', '#8C96C6', '#8C6BB1', '#88419D']);
           
 
@@ -100,7 +100,7 @@
     legend.addTo(map);
 
     var x = d3.scale.linear()
-    .domain([0, 3])
+    .domain([0, 2200])
     .range([0, 400]);
 
     var xAxis = d3.svg.axis()
