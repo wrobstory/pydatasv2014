@@ -115,6 +115,10 @@
   .highlight .vi { color: #19177C } /* Name.Variable.Instance */
   .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
 
+  .widget-hlabel {
+    color: #d0d0d0;
+  }
+
   .mpld3-xaxis line, .mpld3-yaxis line {
     stroke: #d0d0d0 !important;
   }
