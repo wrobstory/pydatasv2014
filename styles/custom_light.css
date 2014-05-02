@@ -1,0 +1,120 @@
+/*
+Rob's custom notebook CSS
+*/
+
+/*Fonts*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+div.CodeMirror {
+  font-family: "Source Code Pro", source-code-pro, "Anonymous Pro", Consolas, Inconsolata, monospace;
+}
+
+/*Selectors*/
+
+div.cell.selected {
+    border: none;
+}
+
+div.input_area {
+    border-radius: 2px;
+    font-size: 20px !important;
+}
+
+div.prompt {
+    display: none;
+}
+
+
+div#maintoolbar, div#header {display: none !important;}
+
+div#notebook {border-top: none;}
+
+.cm-s-ipython {
+  background-color: #fdf6e3;
+  color: #657b83;
+}
+.cm-s-ipython .emphasis {
+  font-weight: bold;
+}
+.cm-s-ipython .dotted {
+  border-bottom: 1px dotted #cb4b16;
+}
+.cm-s-ipython .CodeMirror-gutter {
+  background-color: #eee8d5;
+  border-right: 3px solid #eee8d5;
+}
+.cm-s-ipython .CodeMirror-gutter .CodeMirror-gutter-text {
+  color: #93a1a1;
+}
+.cm-s-ipython .CodeMirror-cursor {
+  border-left-color: #002b36 !important;
+}
+.cm-s-ipython .CodeMirror-matchingbracket {
+  color: #002b36;
+  background-color: #eee8d5;
+  box-shadow: 0 0 10px #eee8d5;
+  font-weight: bold;
+}
+.cm-s-ipython .CodeMirror-nonmatchingbracket {
+  color: #002b36;
+  background-color: #eee8d5;
+  box-shadow: 0 0 10px #eee8d5;
+  font-weight: bold;
+  color: #dc322f;
+  border-bottom: 1px dotted #cb4b16;
+}
+.cm-s-ipython span.cm-keyword {
+  color: #657b83;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-atom {
+  color: #2aa198;
+}
+.cm-s-ipython span.cm-number {
+  color: #586e75;
+}
+.cm-s-ipython span.cm-def {
+  color: #268bd2;
+}
+.cm-s-ipython span.cm-variable {
+  color: #cb4b16;
+}
+.cm-s-ipython span.cm-variable-2 {
+  color: #cb4b16;
+}
+.cm-s-ipython span.cm-variable-3 {
+  color: #cb4b16;
+}
+.cm-s-ipython span.cm-comment {
+  color: #93a1a1;
+}
+.cm-s-ipython span.cm-property {
+  color: #b58900;
+}
+.cm-s-ipython span.cm-operator {
+  color: #657b83;
+}
+.cm-s-ipython span.cm-string {
+  color: #6c71c4;
+}
+.cm-s-ipython span.cm-error {
+  font-weight: bold;
+  border-bottom: 1px dotted #cb4b16;
+}
+.cm-s-ipython span.cm-bracket {
+  color: #cb4b16;
+}
+.cm-s-ipython span.cm-tag {
+  color: #657b83;
+}
+.cm-s-ipython span.cm-attribute {
+  color: #586e75;
+  font-weight: bold;
+}
+.cm-s-ipython span.cm-meta {
+  color: #268bd2;
+}
+
