@@ -9,6 +9,8 @@ http://nbviewer.ipython.org/gist/wrobstory/1eb8cb704a52d18b9ee8/Up%20and%20Down%
 
 Vincent, Folium, Bearcart, and Sticky all need to be on latest Github master- I will push to PyPi very shortly to enable pip-ing. 
 
+This is the source of the USGS/FAA dataset: http://pubs.usgs.gov/ds/817/downloads/
+
 Here is the complete dependency list: 
 
 ```
